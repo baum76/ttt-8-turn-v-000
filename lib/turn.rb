@@ -29,11 +29,11 @@ def input_to_index(input)
   input.to_i-1
 end
 
-def move(board, index = "X")
-  if valid_move?
-    board(8, 1)
-  end
+def move(board, index, value)
+  board[index] = value
 end
+
+move(board, 8, "X")
 
 
 def turn(board, index)
