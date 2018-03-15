@@ -43,7 +43,6 @@ def turn(board)
     puts "valid move"
   else
     puts "try again"
-    turn(board)
   end
 end
 
