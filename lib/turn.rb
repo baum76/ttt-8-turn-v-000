@@ -47,10 +47,6 @@ def turn(board)
   end
   move(board, 8, "X")
 end
+display_board(board)
 
-#input = gets.strip
-#if !valid_move?(board, index)
-#  move(board)
-#else
-#    turn(board)
-#end
+
