@@ -32,7 +32,7 @@ def input_to_index(input)
 end
 
 def move(board, index)
-  valid_move?(board, index) == "X"
+  !valid_move?(board, index) == "X"
 end
 
 
