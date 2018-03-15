@@ -47,3 +47,4 @@ def turn(board)
   end
   move(board, 8, "X")
 end
+turn(board)
