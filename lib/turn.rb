@@ -48,5 +48,3 @@ def turn(board)
   move(board, 8, "X")
 end
 display_board(board)
-
-
