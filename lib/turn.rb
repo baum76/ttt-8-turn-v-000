@@ -30,8 +30,8 @@ def input_to_index(input)
 end
 
 def move(board, index = "X")
-  if valid_move? == "X"
-
+  if valid_move?
+    board(8, 1)
   end
 end
 
