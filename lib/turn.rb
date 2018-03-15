@@ -45,5 +45,5 @@ def turn(board)
     puts "try again"
     turn(board)
   end
-  move(board, 8, "X")
+  move(board, 5, "X")
 end
